@@ -1,4 +1,4 @@
-const Command = require('../../structures/CommandClass');
+const Command = require('../../../structures/CommandClass');
 
 const { SlashCommandBuilder } = require('discord.js');
 

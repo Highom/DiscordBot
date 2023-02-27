@@ -1,4 +1,4 @@
-const Command = require('../../structures/CommandClass');
+const Command = require('../../../structures/CommandClass');
 
 const { ModalBuilder, ActionRowBuilder, TextInputBuilder, TextInputStyle } = require('discord.js');
 const { SlashCommandBuilder } = require('@discordjs/builders');

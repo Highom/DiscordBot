@@ -17,10 +17,6 @@ module.exports = class Help extends Command {
 						.setRequired(false)
 						.addChoices(
 							{
-								name: 'Hello',
-								value: 'hello',
-							},
-							{
 								name: 'Avatar',
 								value: 'Avatar',
 							},
@@ -37,8 +33,8 @@ module.exports = class Help extends Command {
 								value: 'ping',
 							},
 							{
-								name: 'Prefix',
-								value: 'prefix',
+								name: 'Rock Paper Scissor',
+								value: 'rpc',
 							},
 							{
 								name: 'Not Found',

@@ -27,6 +27,10 @@ const deploy = async () => {
 
 		console.log('Started refreshing Slash Commands and Context Menus...');
 
+		// rest.put(Routes.applicationCommands(clientId), { body: [] })
+		// 	.then(() => console.log('Successfully deleted all application commands.'))
+		// 	.catch(console.error);
+
 		await rest.put(
 			Routes.applicationGuildCommands(clientId, guildId),
 			{ body: commandData },
