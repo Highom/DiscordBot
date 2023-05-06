@@ -37,6 +37,10 @@ module.exports = class Help extends Command {
 								value: 'rpc',
 							},
 							{
+								name: 'Dance',
+								value: 'dance',
+							},
+							{
 								name: 'Not Found',
 								value: 'notfound',
 							},

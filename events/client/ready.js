@@ -12,8 +12,9 @@ module.exports = class ReadyEvent extends Event {
 	async run() {
 		const client = this.client;
 
-		client.user.setActivity('👋 Hello World!', { type: ActivityType.Playing });
+		client.user.setActivity('Highom struggle at Coding', { type: ActivityType.Watching });
 
-		console.log(`Discord Bot is now online with ${client.users.cache.size} users and ${client.guilds.cache.size} servers.`);
+		// bot counts itself as a user
+		console.log(`Discord Bot is now online with ${client.users.cache.size -1} users and ${client.guilds.cache.size} servers.`);
 	}
 };
