@@ -41,6 +41,10 @@ module.exports = class Help extends Command {
 								value: 'dance',
 							},
 							{
+								name: 'Brick',
+								value: 'brick',
+							},
+							{
 								name: 'Not Found',
 								value: 'notfound',
 							},
