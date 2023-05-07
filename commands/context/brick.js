@@ -28,7 +28,7 @@ module.exports = class Brick extends Command {
 
 			//get user image here
 			const userImg = await Jimp.read(imageFolder + "\\avatar.png");
-			jimpImage.composite(userImg, 0, 0)
+			jimpImage.composite(userImg, 135, 245)
 		  
 			GifUtil.quantizeDekker(jimpImage,256);
 			return new GifFrame(jimpImage.bitmap, {
