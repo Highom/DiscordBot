@@ -33,8 +33,10 @@
     "dependencies": {
         "@discordjs/rest": "^1.1.0",
         "common-tags": "^1.8.2",
-        "discord.js": "^14.3.0",
-        "dotenv": "^16.0.1"
+        "discord.js": "^14.11.0",
+        "dotenv": "^16.0.1",
+        "gifwrap": "^0.10.1",
+        "jimp": "^0.22.7"
     },
     "devDependencies": {
         "eslint": "^8.22.0",
